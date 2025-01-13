@@ -11,7 +11,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   title = `Meu Boró ${this.ano}`;
   total: number = 0;
   somatorio: any = `R$ ${this.total},00`;
-  valorMax = 300;
+  valorMax = 204;
   listaValores: any = [];
   listarVeloresDepositados: any = [];
   isChecked: boolean = false;
